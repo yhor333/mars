@@ -1,0 +1,18 @@
+.button {
+  width: 100%;
+  height: 60px;
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0);
+  color: #fff;
+  border-radius: 8px;
+  border-color: rgb(99, 90, 90);
+  border-style: none;
+  border: 1px solid #fff;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.link {
+  width: 141px;
+  margin: 10px 0;
+}
