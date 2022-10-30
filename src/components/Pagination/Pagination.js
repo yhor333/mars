@@ -17,9 +17,7 @@ const Pagination = ({
       >
         prev photo
       </Button>
-      <h3>
-        {currentPhotoIndex + 1} of {totalPhotos}
-      </h3>
+      <h3>{`${currentPhotoIndex + 1} of ${totalPhotos}`}</h3>
       <Button
         onClick={() => {
           if (currentPhotoIndex < totalPhotos - 1) {

@@ -25,7 +25,7 @@
   margin: 0 auto;
 }
 
-main h2 {
+.button-wraper h2 {
   margin: 50px;
   text-align: center;
 }
@@ -36,6 +36,7 @@ main h2 {
   margin-top: 50px;
   margin-bottom: 50px;
   padding: 20px;
+  flex-wrap: wrap;
 }
 
 .loading-contetn {
@@ -60,22 +61,22 @@ main h2 {
   padding: 20px;
 }
 
+.center {
+  margin-top: 200px !important;
+  display: flex;
+  justify-content: center;
+}
+
 @media screen and (max-width: 500px) {
   .container {
     width: 250px;
   }
 
-  .button {
-    width: 100%;
-    padding: 5px;
-  }
-
-  .link {
-    width: 100%;
-    margin: 4px 0;
+  .camera-wrapper {
+    justify-content: center;
   }
 
   .button {
-    height: 40px;
+    width: 100px;
   }
 }

@@ -1,4 +1,4 @@
-.button {
+.button__item {
   height: 60px;
   padding: 0px 10px;
   background-color: rgba(0, 0, 0, 0);
@@ -9,9 +9,14 @@
   border: 1px solid #fff;
   font-family: inherit;
   cursor: pointer;
+  width: 100%;
 }
 
-.link {
+.button {
   width: 141px;
   margin: 10px 0;
+}
+
+.center {
+  margin: 0 auto;
 }
